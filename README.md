@@ -1,4 +1,4 @@
-# animated Landing Page
+# Animated Landing Page
 
 Animated web page using gsap library for javascript.
 
