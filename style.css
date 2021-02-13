@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main{
+    font-family: 'Heebo', sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     min-height: 10vh;
+     color: rgb(61, 61, 61);   
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    font-size: 1.4rem;
+}
+.nav li{
+    padding-left: 2.7rem;
+    font-weight: bold;
+}
+a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text{
+    font-family: 'Lobster', cursive;
+    color: rgb(61, 61, 61);
+    position: absolute;
+    font-size: 3rem;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%)
+}
+
+.intro{
+    background-color:#3E646A;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Heebo', sans-serif;
+    color: #CBDEEC;
+    font-size: 3rem;
+}
+
+.slider{
+    background-color: #BCD2E3;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+.hide{
+    background-color:#3E646A;
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
+
